@@ -33,7 +33,7 @@
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
-                            <view contentMode="scaleToFill" id="G5H-9x-ejB" userLabel="Mailboxes">
+                            <view clipsSubviews="YES" contentMode="scaleToFill" id="G5H-9x-ejB" userLabel="Mailboxes">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="1281"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <subviews>

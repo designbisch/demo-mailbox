@@ -411,16 +411,10 @@ class MailboxViewController: UIViewController {
         var translation = sender.translationInView(view)
         var velocity = sender.velocityInView(view)
         
-        
-        
         if sender.state == .Began {
             
         } else if sender.state == .Changed {
-            if mailboxesView.frame.origin.x == 285 {
-                mailboxesView.center = CGPoint(x: translation.x + initialCenterMailboxes.x, y: initialCenterMailboxes.y)
-            } else {
-                
-            }
+            mailboxesView.center = CGPoint(x: translation.x + initialCenterMailboxes.x, y: initialCenterMailboxes.y)
         } else if sender.state == .Ended {
             //Close menu
             if translation.x <= -60 {
